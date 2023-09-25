@@ -201,12 +201,19 @@ main .claim-card {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.how-to .gradient-line {
+    width: 80px;
+    height: 2px;
+    background-image: linear-gradient(to right, red, orange);
 }
 
 .how-to ul {
     padding: 0;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .how-to ul li {
