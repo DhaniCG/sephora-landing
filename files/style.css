@@ -168,7 +168,7 @@ header p {
 
 header a {
     position: relative;
-    top: 20px;
+    top: 0px;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
@@ -180,23 +180,11 @@ header a {
     color: black;
 }
 
-header a:hover img {
-    top: 10px;
-    transition: 200ms ease-in-out;
-}
-
 header a span {
     position: relative;
     bottom: 60px;
     transform: rotateZ(90deg);
     white-space: nowrap;
-}
-
-header a img {
-    position: relative;
-    top: 0;
-    height: 32px;
-    transition: 200ms ease-in-out;
 }
 
 main .claim-card {
@@ -381,8 +369,13 @@ footer .copy .buttons {
     header a {
         position: absolute;
         top: 50%;
-        transform: translateY(20px);
-        right: 0px;
+        right: 30px;
+        transform: translateY(-50%);
+    }
+    
+    header a svg {
+        width: 35px;
+        height: auto;
     }
     
     header a span {
@@ -408,6 +401,7 @@ footer .copy .buttons {
     }
     
     header a {
-        right: -5px;
+        top: calc(50% + 10px);
+        right: 20px;
     }
 }
