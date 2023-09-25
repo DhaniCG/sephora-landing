@@ -242,8 +242,9 @@ main .claim-card {
     text-align: center;
     color: black;
     text-decoration: none;
-    font-size: 1.05rem;
-    padding: 12px;
+    font-size: 1rem;
+    width: 80%;
+    padding: 10px;
     margin: auto;
     margin-top: 50px;
     transition: 250ms;
@@ -257,8 +258,8 @@ main .claim-card {
 
 main .giftcard-image {
     display: block;
-    width: 60%;
-    margin: 20px auto 50px;
+    width: 80%;
+    margin: 40px auto 50px;
 }
 
 footer {
@@ -286,7 +287,7 @@ footer .feedback {
     color: black;
     width: 100%;
     max-width: none;
-    padding: 0.4rem;
+    padding: 0.6rem;
 }
 
 footer .footer-cta p {
