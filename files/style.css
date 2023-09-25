@@ -196,12 +196,20 @@ main .claim-card {
     margin: auto;
 }
 
+.how-to .small-text {
+    color: #404040;
+    letter-spacing: 0.03em;
+    font-family: "Plexes", sans-serif;
+    margin-bottom: 0;
+}
+
 .how-to h2 {
     font-size: 2.1rem;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* text-align: center; */
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
