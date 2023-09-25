@@ -211,6 +211,7 @@ main .claim-card {
 
 .how-to ul li {
     list-style-type: none;
+    color: #404040;
     background-image: url(./checkmark.svg);
     background-position: left;
     background-repeat: no-repeat;
