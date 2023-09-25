@@ -390,11 +390,21 @@ footer .copy .buttons {
     }
 }
 
+@media screen and (max-width: 435px) {
+    nav .promo {
+        padding: 10px;
+    }
+
+    nav .promo p {
+        font-size: 0.6rem;
+    }
+}
+
 @media screen and (max-width: 370px) {
     header p {
         font-size: 0.8rem;
     }
-
+    
     header a {
         right: -5px;
     }
