@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'Plexes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./Plexes-Book.otf');
+}
+
+@font-face {
+    font-family: 'Plexes';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./Plexes-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Plexes';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./Plexes-Black.otf');
+}
+
+@font-face {
+    font-family: 'Quincy';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./quincycf-thin.otf');
+}
+
+@font-face {
+    font-family: 'Quincy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./quincycf-regular.otf');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./HelveticaNeue-Medium.ttf');
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body > hr {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Plexes", sans-serif;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+    font-family: "Quincy", Times, serif;
+}
+
+header,
+main,
+footer > * {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+} 
+
+span.bold {
+    font-weight: 700;
+}
+
+nav .promo {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F8E5F8;
+    padding: 20px;
+}
+
+nav .promo p {
+    max-width: 480px;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    margin: auto;
+}
+
+nav .navbar {
+    padding: 10px;
+    box-shadow: 0px 1px 1px #0000001a;
+}
+
+nav .navbar .nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 480px;
+    margin: auto;
+}
+
+nav .navbar .search-wrapper {
+    position: relative;
+    flex-grow: 1;
+}
+
+nav .navbar .search-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 15px;
+    transform: translateY(-50%);
+}
+nav .navbar .search-wrapper input {
+    border-radius: 100rem;
+    border: 0.1em solid;
+    box-sizing: border-box;
+    background-color: #F6F6F8;
+    width: 100%;
+    padding: 10px;
+    padding-left: 33px;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 50px 20px 0;
+}
+
+header hr {
+    border: 1px solid;
+    width: 120px;
+    margin: 0 0 20px;
+}
+
+header h1 {
+    flex-shrink: 1;
+    flex-grow: 0;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 0.8;
+    min-width: none;
+    margin: 0;
+}
+
+header p {
+    font-family: "Plexes", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+
+header a {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Plexes";
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover img {
+    top: 10px;
+    transition: 200ms ease-in-out;
+}
+
+header a span {
+    position: relative;
+    bottom: 60px;
+    transform: rotateZ(90deg);
+    white-space: nowrap;
+}
+
+header a img {
+    position: relative;
+    top: 0;
+    height: 32px;
+    transition: 200ms ease-in-out;
+}
+
+main .claim-card {
+    width: 100%;
+}
+
+.how-to {
+    width: 80%;
+    margin: auto;
+}
+
+.how-to h2 {
+    font-size: 1.9rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.how-to ul {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.how-to ul li {
+    list-style-type: none;
+    background-image: url(./checkmark.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 90%;
+    padding-left: 40px;
+    margin-bottom: 15px;
+}
+
+.how-to a {
+    border-radius: 100rem;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.05rem;
+    padding: 12px;
+    margin: auto;
+    margin-top: 50px;
+    transition: 250ms;
+}
+
+.how-to a:hover {
+    background-color: black;
+    color: white;
+    transition: 250ms;
+}
+
+main .giftcard-image {
+    display: block;
+    width: 60%;
+    margin: 20px auto 50px;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem 3rem;
+    margin-top: 100px;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer .feedback {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    background-color: #CCCCCC;
+    color: black;
+    width: 100%;
+    max-width: none;
+    padding: 0.4rem;
+}
+
+footer .footer-cta p {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 1rem 0 0.4rem;
+}
+
+footer .footer-cta input {
+    border-radius: 5px;
+    border: 0 solid transparent;
+    padding: 0.8rem 1rem;
+    margin-right: 0.8rem;
+}
+
+footer .footer-form a {
+    border-radius: 100rem;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+footer .social-media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+footer .social-media img {
+    width: 30px;
+}
+
+footer .app-download {
+    border-top: 1px solid #ffffff4d;
+    border-bottom: 1px solid #ffffff4d;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+footer .app-download p {
+    margin: 0 0 10px;
+}
+
+footer .app-download img {
+    margin-right: 15px;
+}
+
+footer .copy {
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+
+footer .copy a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .copy a:hover {
+    text-decoration: underline;
+}
+
+footer .copy .buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+    nav .logo {
+        width: 100px;
+    }
+    
+    header {
+        position: relative;
+    }
+    
+    header h1 {
+        font-size: 13.5vw;
+    }
+    
+    header p {
+        width: 80%;
+    }
+    
+    header a {
+        position: absolute;
+        top: 50%;
+        transform: translateY(20px);
+        right: 0px;
+    }
+    
+    header a span {
+        /* font-size: 1rem; */
+        font-size: 0.8rem;
+        bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header p {
+        font-size: 0.8rem;
+    }
+
+    header a {
+        right: -5px;
+    }
+}
