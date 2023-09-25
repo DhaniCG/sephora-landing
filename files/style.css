@@ -173,7 +173,7 @@ header a {
     flex-shrink: 0;
     flex-direction: column;
     align-items: center;
-    font-family: "Plexes";
+    font-family: "Plexes", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     text-decoration: none;
@@ -215,7 +215,7 @@ main .claim-card {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 25px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Plexes", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     width: 90%;
@@ -228,9 +228,10 @@ main .claim-card {
     border: 1px solid black;
     display: block;
     text-align: center;
+    font-family: "Plexes", sans-serif;
     color: black;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 70%;
     padding: 10px;
     margin: auto;
